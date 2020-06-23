@@ -1,0 +1,25 @@
+{
+	"name": "theme-isjdongya-grey",
+	"version": "0.1.0",
+	"publisher": "isJDongYa",
+	"displayName": "isJDongYa Grey Theme",
+	"description": "一个简洁大方的灰色基调主题",
+	"icon": "icon.png",
+	"engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/isJDongYa/isJDongYa-Grey"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "isJDongYa Grey",
+				"uiTheme": "vs",
+				"path": "./themes/isjdongya-grey-color-theme.json"
+			}
+		]
+	}
+}
